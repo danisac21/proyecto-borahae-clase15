@@ -1,0 +1,733 @@
+.navbar-brand {
+  font-size: 3rem; }
+
+@font-face {
+  font-family: 'Bavista';
+  src: url(../font/Bavista_Soulare.ttf); }
+
+body {
+  margin: 0rem;
+  font-family: 'Quicksand';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #f7f7f7; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2; }
+
+a, p {
+  font-family: 'Quicksand'; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.75rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1.25rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+a {
+  color: #f49351;
+  text-decoration: none;
+  background-color: transparent; }
+
+a:hover {
+  color: #f1a674;
+  text-decoration: underline; }
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #004a52;
+  border-color: #64a19d; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #64a19d;
+  border-color: #64a19d; }
+
+.bg-green {
+  background-color: #004a52; }
+
+.bg-light {
+  background-color: #f7f7f7; }
+
+.container {
+  width: 100%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto; }
+
+/*Nosotros*/
+.masthead-nosotros {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 30rem;
+  padding: 1rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/portada-nosotros.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+
+.masthead-nosotros h1 {
+  font-family: 'Quicksand';
+  font-size: 2.9rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  padding-top: 12rem;
+  background: linear-gradient(white, white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.masthead-nosotros h2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.projects-section {
+  margin-top: 4rem;
+  padding: 1rem 2rem 5rem 2rem; }
+  .projects-section .col-lg-6 {
+    margin-top: 0; }
+
+.about-section-nosotros {
+  padding-top: 8rem; }
+
+.about-section-nosotros p {
+  margin-bottom: 5rem; }
+
+.about-section-nosotros .featured-text {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 30%; }
+
+.bg-nosotros {
+  background-color: #004a52; }
+
+.galeria-nosotros {
+  display: flex;
+  flex-direction: row; }
+
+.galeria-nosotros img {
+  width: 100%;
+  height: 100%; }
+
+/****** SECCION PRODUCTOS ******/
+.masthead-prod {
+  position: relative;
+  width: 100%;
+  height: 50vh !important;
+  min-height: 30rem;
+  padding: 12rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/chico-barista-nosotros.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%; }
+
+.masthead-prod__tit {
+  font-family: 'Quicksand';
+  font-size: 4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  padding-top: 12rem;
+  background: linear-gradient(white, white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.masthead-prod__sub {
+  max-width: 20rem;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.primer-project-prod {
+  padding: 2rem 0 1rem 0; }
+  .primer-project-prod h4 {
+    font-size: 1.5rem;
+    color: #212529; }
+  .primer-project-prod p {
+    font-size: 1rem;
+    color: #313131; }
+
+.primer-project-prod {
+  margin: 7% 0 0 0;
+  padding: 0; }
+  .primer-project-prod .featured-text {
+    padding: 0 0 0 1.8rem;
+    border-left: 0.5rem solid #64a19d;
+    text-align: left; }
+  .primer-project-prod p {
+    color: #313131; }
+
+.project-prod {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .project-prod img {
+    width: 100%;
+    height: 100%;
+    transition: 1s; }
+  .project-prod img:hover {
+    transform: scale(1.175); }
+
+.projects-section-prod .col-lg-6 {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  padding: 0; }
+
+.project-section-prod__img {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.project-section-prod__img--zoom {
+  width: 100%;
+  height: 100%;
+  transition: 1s; }
+
+.project-section-prod__img--zoom:hover {
+  transform: scale(1.175); }
+
+.projects-section-prod-texto {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  margin-top: auto;
+  background-color: #004a52;
+  height: 100%; }
+  .projects-section-prod-texto h4 {
+    color: #f7f7f7;
+    padding-top: 2rem; }
+  .projects-section-prod-texto p {
+    color: rgba(255, 255, 255, 0.5); }
+
+.galeria-prod {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #f7f7f7;
+  transition: 1s; }
+  .galeria-prod img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px; }
+  .galeria-prod img:hover {
+    transform: scale(1.05); }
+
+.contact-section .social {
+  margin-top: 3rem; }
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: #f7f7f7;
+  border-radius: 100%;
+  line-height: 3rem;
+  color: #004a52; }
+
+.contact-section .social a:hover {
+  color: #f49351; }
+
+.contact-section .social a:active {
+  color: #f49351; }
+
+.footer {
+  padding: 5rem 0; }
+
+/****** SECCION CONTACTO ******/
+.masthead-contacto {
+  position: relative;
+  width: 100%;
+  height: 50vh !important;
+  min-height: 30rem;
+  padding: 12rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/chica-cafe-nosotros.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%; }
+
+.masthead-contacto h1 {
+  font-family: 'Quicksand';
+  font-size: 4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  padding-top: 12rem;
+  background: linear-gradient(white, white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.masthead-contacto h2 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.formulario-contacto {
+  margin: 6rem 10% 0rem 10%;
+  text-align: center; }
+  .formulario-contacto h1 {
+    font-size: 2rem;
+    margin: 1rem;
+    text-transform: uppercase; }
+  .formulario-contacto p {
+    margin: 2rem;
+    font-family: 'Quicksand';
+    font-size: 1.1rem; }
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 4rem; }
+  .formulario form {
+    width: 60%;
+    height: 2rem 20%;
+    font-family: 'Quicksand'; }
+  .formulario .custom-control {
+    margin-bottom: 1rem; }
+
+.contact-section {
+  padding-top: 4rem; }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d; }
+  .contact-section .text-primary {
+    color: #64a19d !important; }
+  .contact-section h4 {
+    font-size: 0.8rem;
+    font-family: 'Quicksand';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem; }
+  .contact-section hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem; }
+  .contact-section .social-cont {
+    margin-top: 5rem; }
+    .contact-section .social-cont a {
+      text-align: center;
+      width: 3rem;
+      height: 3rem;
+      background: white;
+      border-radius: 100%;
+      line-height: 3rem;
+      color: #004a52; }
+    .contact-section .social-cont a:hover {
+      color: #f49351; }
+    .contact-section .social-cont a:active {
+      color: #fff; }
+
+.footer {
+  padding: 3rem 0; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out; }
+  #mainNav .navbar-brand {
+    font-size: 3rem;
+    padding: 0.5rem 0;
+    color: #f7e8e2; }
+  #mainNav .nav-link {
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: #f7e8e2; }
+  #mainNav .nav-link:hover {
+    color: #f49351; }
+  #mainNav .nav-link:active {
+    color: #f49351; }
+  /****** NAVBAR COLOR SCROLL********/
+  #mainNav.navbar-shrink {
+    background-color: #f7f7f7; }
+  /****** NAVBAR-BRAND COLOR SCROLL********/
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #004a52; }
+  #mainNav.navbar-shrink .nav-link {
+    color: #000000;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent; }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #64a19d; }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #64a19d; }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #64a19d;
+    outline: none;
+    border-bottom: 0.25rem solid #64a19d; } }
+
+@media (min-width: 992px) {
+  .psection-index .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d; } }
+
+@media (min-width: 992px) {
+  .psection-index .project-text {
+    padding: 5rem; }
+  .psection-index .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%; } }
+
+@media (min-width: 768px) {
+  .masthead-index h1 {
+    font-size: 3rem;
+    line-height: 3rem; }
+  .masthead-nosotros h1 {
+    font-size: 4rem;
+    line-height: 4rem; }
+  .masthead-prod__tit {
+    font-size: 4rem;
+    line-height: 4rem; } }
+
+@media (min-width: 992px) {
+  .masthead-index {
+    height: 100vh;
+    padding: 0; }
+  .masthead-index h1 {
+    font-size: 4rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    padding-top: 2rem; }
+  .masthead-index h2 {
+    max-width: 30rem;
+    font-size: 1.25rem; }
+  .masthead-nosotros {
+    height: 50vh;
+    padding: 0; }
+  .masthead-nosotros h1 {
+    font-size: 4rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    padding-top: 12rem; }
+  .masthead-nosotros h2 {
+    max-width: 30rem;
+    font-size: 1.25rem; }
+  .masthead-prod {
+    height: 100vh;
+    padding: 0; }
+  .masthead-prod__tit {
+    font-size: 4rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    padding-top: 12rem; }
+  .masthead-prod__sub {
+    max-width: 30rem;
+    font-size: 1.25rem; } }
+
+/****** SECCION CAAFETERIAS ******/
+.masthead-cafe {
+  position: relative;
+  width: 100%;
+  height: 50vh !important;
+  min-height: 30rem;
+  padding: 12rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/cafeterias-portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%; }
+
+.masthead-cafe h1 {
+  font-family: 'Quicksand';
+  font-size: 3.8rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  padding-top: 12rem;
+  background: linear-gradient(white, white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.masthead-cafe h2 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.projects-section-cafe {
+  margin: 5% 0;
+  padding: 0; }
+  .projects-section-cafe .featured-text {
+    padding: 0 1.8rem 0 0;
+    border-right: 0.5rem solid #64a19d;
+    text-align: right; }
+  .projects-section-cafe p {
+    color: #313131; }
+
+.sucursales-cafe {
+  margin: 5rem 0 1rem auto; }
+  .sucursales-cafe h2 {
+    text-align: center;
+    margin: 6rem 1.5rem 4rem 1.5rem;
+    color: #004a52; }
+  .sucursales-cafe .card-sucursales {
+    width: 23rem;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    transition: 0.5s; }
+    .sucursales-cafe .card-sucursales .card {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 2px; }
+    .sucursales-cafe .card-sucursales .card:hover {
+      transform: scale(1.04); }
+  .sucursales-cafe .card-body {
+    text-align: center;
+    margin: 8%;
+    padding: 1rem; }
+    .sucursales-cafe .card-body .card-text {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem; }
+
+.project-section-cafe {
+  padding: 5rem 0; }
+
+.col-lg-6 {
+  margin-top: 4rem;
+  padding: 0; }
+
+.project-section-cafe__img {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.project-section-cafe__img--zoom {
+  width: 100%;
+  height: 100%;
+  transition: 1s; }
+
+.project-section-cafe__img--zoom:hover {
+  transform: scale(1.175); }
+
+.projects-section-cafe-texto {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  margin-top: auto;
+  background-color: #004a52;
+  height: 100%; }
+  .projects-section-cafe-texto h4 {
+    color: #f7f7f7;
+    padding-top: 2rem; }
+  .projects-section-cafe-texto p {
+    color: rgba(255, 255, 255, 0.5); }
+
+.contact-section .social {
+  margin-top: 3rem; }
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: #f7f7f7;
+  border-radius: 100%;
+  line-height: 3rem;
+  color: #004a52; }
+
+.contact-section .social a:hover {
+  color: #f49351; }
+
+.contact-section .social a:active {
+  color: #f49351; }
+
+.footer {
+  padding: 5rem 0; }
+
+/******* Index *******/
+.masthead-index {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/portada3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+
+.masthead-index h1 {
+  font-family: 'Quicksand';
+  font-size: 4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  padding-top: 2rem;
+  background: linear-gradient(white, white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.masthead-index h2 {
+  max-width: 20rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.about-section-index {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(to bottom, #004a52 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); }
+  .about-section-index p {
+    margin-bottom: 5rem;
+    color: #fff; }
+  .about-section-index a {
+    color: #f49351;
+    text-decoration: none;
+    background-color: transparent; }
+  .about-section-index a:hover {
+    color: #f1a674;
+    text-decoration: underline; }
+
+.carousel {
+  margin: 5rem 5rem 2rem 5rem; }
+  .carousel .carousel-caption {
+    background-color: #f7f7f7;
+    color: #004a52; }
+
+.psection-index {
+  padding: 2rem 0; }
+  .psection-index a {
+    color: #f7f7f7; }
+  .psection-index a:hover {
+    color: #f1a674;
+    text-decoration: none; }
+
+.project__img {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.project__img--zoom img {
+  width: 100%;
+  height: 100%;
+  transition: 1s; }
+
+.project__img--zoom img:hover {
+  transform: scale(1.175); }
+
+.psection-index {
+  margin-bottom: 3rem;
+  margin-top: 1rem; }
+  .psection-index .col-lg-6 {
+    margin-top: 0; }
+  .psection-index .featured-text {
+    padding: 2rem; }
+  .psection-index .project-text {
+    padding: 3rem;
+    font-size: 90%; }
+
+.bg-green {
+  background-color: #004a52 !important; }
+
+.signup-section__index {
+  padding: 7rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/img/portada2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+
+.signup-section__index .form-inline input {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: "Varela Round";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0; }
+
+.signup-section__index--tw {
+  color: #fff; }
+
+.contact-section .social {
+  margin-top: 1rem; }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: white;
+    border-radius: 100%;
+    line-height: 3rem;
+    color: #004a52; }
+  .contact-section .social a:hover {
+    color: #f49351 !important; }
+  .contact-section .social a:active {
+    color: #fff; }
+
+.footer {
+  padding: 3rem 0; }

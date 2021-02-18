@@ -1,0 +1,69 @@
+/*Nosotros*/
+.masthead-nosotros {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 30rem;
+    padding: 1rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/portada-nosotros.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.masthead-nosotros {
+    h1 {
+        font-family:'Quicksand';
+        font-size: 2.9rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.8rem;
+        padding-top: 12rem;
+        background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+                background-clip: text;
+    }
+    h2 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $tw-50 !important;
+    }
+}
+
+.projects-section {
+    margin-top: 4rem;
+    padding: 1rem 2rem 5rem 2rem;
+        .col-lg-6 {
+            margin-top: 0;
+        }
+}
+
+.about-section-nosotros {
+    padding-top: 8rem;
+}
+  
+.about-section-nosotros p {
+    margin-bottom: 5rem;
+}
+  
+.about-section-nosotros .featured-text {
+    border-color: $verde-claro;
+    border-width: 0.25rem;
+    width: 30%;
+}
+  
+.bg-nosotros {
+    background-color: $verde-oscuro;
+}
+  
+.galeria-nosotros {
+    display: flex;
+    flex-direction: row;
+}
+
+.galeria-nosotros img {
+    width: 100%;
+    height: 100%;
+}
+  

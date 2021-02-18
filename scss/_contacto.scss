@@ -1,0 +1,115 @@
+/****** SECCION CONTACTO ******/ 
+
+//Masthead Contacto//
+.masthead-contacto {
+    position: relative;
+    width: 100%;
+    height: 50vh !important;
+    min-height: 30rem;
+    padding: 12rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/chica-cafe-nosotros.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+  
+.masthead-contacto {
+    h1 {
+        font-family:'Quicksand';
+        font-size: 4rem;
+        line-height: 4rem;
+        text-transform: uppercase;
+        letter-spacing: 0.8rem;
+        padding-top: 12rem;
+        background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+                background-clip: text;
+    }
+    h2 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        color: $tw-50!important; 
+    }
+}
+
+// Formulario //
+.formulario-contacto {
+    margin: 6rem 10% 0rem 10%;
+    text-align: center;
+
+    h1 {
+        font-size: 2rem;
+        margin: 1rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        margin: 2rem;
+        font-family: 'Quicksand';
+        font-size: 1.1rem;
+    }
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 4rem;
+
+    form {
+        @include sizes (60%, 2rem 20%);
+        font-family:'Quicksand';
+    }
+    .custom-control {
+        margin-bottom: 1rem;
+    }
+}
+
+// Contacto //
+.contact-section {
+    padding-top: 4rem;
+    .card {
+        border: 0;
+        border-bottom: 0.25rem solid $verde-claro;
+    }
+    .text-primary {
+        color: $verde-claro !important;
+    }
+    h4 {
+        font-size: 0.8rem;
+        font-family: 'Quicksand';
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+    }
+    hr {
+        border-color: $verde-claro;
+        border-width: 0.25rem;
+        width: 3rem;
+    }
+    .social-cont {
+        margin-top: 5rem;
+            a {
+                text-align: center;
+                @include sizes (3rem, 3rem);
+                background: white;
+                border-radius: 100%;
+                line-height: 3rem;
+                color: $verde-oscuro;
+            }
+            a:hover {
+                color: $naranja-oscuro;
+            }
+            a:active {
+                color: #fff;
+            }
+    }
+    
+}
+
+.footer {
+    padding: 3rem 0;
+}

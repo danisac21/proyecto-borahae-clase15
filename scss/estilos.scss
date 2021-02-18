@@ -1,0 +1,171 @@
+@import "navbar";
+@import "general";
+@import "grilla";
+@import "nosotros";
+@import "productos";
+@import "contacto";
+@import "mediaQueries";
+@import "cafeterias";
+
+/******* Index *******/
+.masthead-index {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/img/portada3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+  
+.masthead-index {
+    h1 {
+        font-family:'Quicksand';
+        font-size: 4rem;
+        line-height: 4rem;
+        text-transform: uppercase;
+        letter-spacing: 0.8rem;
+        padding-top: 2rem;
+        background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+                background-clip: text;
+    }
+    h2 {
+        max-width: 20rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        color: $tw-50 !important;
+    }
+}
+
+// About Section //
+
+.about-section-index {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(to bottom, $verde-oscuro 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+        p {
+            margin-bottom: 5rem;
+            color: #fff;
+        }
+        a {
+            color:$naranja-oscuro;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        a:hover {
+            color: $naranja-claro;
+            text-decoration: underline;
+        }
+}
+
+// Carousel Index //
+.carousel {
+    margin: 5rem 5rem 2rem 5rem;
+        .carousel-caption {
+            background-color: $crema;
+            color: $verde-oscuro;
+        }
+}
+
+// Project Section Index //
+
+.psection-index {
+    padding: 2rem 0;
+    a {
+        color: $crema;
+    }
+    a:hover{
+        color: $naranja-claro;
+        text-decoration: none;
+    }
+}
+  
+.project__img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.project__img--zoom img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+  
+.project__img--zoom img:hover {
+    transform: scale(1.175);
+}
+  
+.psection-index {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    .col-lg-6 {
+        margin-top: 0;
+    }
+    .featured-text {
+    padding: 2rem;
+    }
+    .project-text {
+        padding: 3rem;
+        font-size: 90%;
+    }
+}
+ 
+.bg-green {
+    background-color: $verde-oscuro !important;
+}
+
+.signup-section__index {
+    padding: 7rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/img/portada2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+  
+.signup-section__index .form-inline input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: "Varela Round";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+  
+.signup-section__index--tw {
+    color: #fff;
+}
+
+.contact-section {
+    .social {
+        margin-top: 1rem;
+        a {
+            text-align: center;
+            height: 3rem;
+            width: 3rem;
+            background: white;
+            border-radius: 100%;
+            line-height: 3rem;
+            color: $verde-oscuro;
+        }
+        a:hover {
+            color: $naranja-oscuro !important;
+        }
+        a:active {
+            color: #fff;
+        }
+    }
+}
+
+  
+.footer {
+    padding: 3rem 0;
+}
